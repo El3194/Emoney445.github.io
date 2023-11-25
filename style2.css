@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rubik:wght@500&family=Space+Mono&display=swap');
+
+header li, a{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+}
+
+li button{
+    margin-left: 2.5%;
+}
+
+.section{
+    padding: 10vh 4vw 4vh 4vw;
+}
+
+
+.odd{
+    background-image: linear-gradient(to bottom right, rgb(227, 242, 251), rgb(26, 130, 188));
+}
+
+.even{
+    background-image: linear-gradient(to bottom left, rgb(26, 130, 188), rgb(227, 242, 251));
+}
+
+#profile{
+    border-radius: 100%;
+}
+
+#ieor{
+    background-color: white;
+    height: width=100%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-pad{
+    padding: 1.5%;
+}
+
+p{
+    font-family: "Bitter";
+    font-weight: 500;
+    word-spacing: .1em;
+    color: white;
+    
+}
+
+h1{
+    font-family: "Bitter";
+    color:white;
+    padding: 0;
+}
+
+.heading{
+    font-family: "Bitter";
+    height: 20vh;
+    border: .45em solid rgb(239, 243, 254);
+    border-radius: 1em;
+}
+
+summary{
+    font-family: "Bitter", sans-serif;
+    font-weight: 600;
+    font-size: 1.5em; 
+    color: rgb(34, 30, 72);
+    height: 13vh;
+    transition: all 0.4s ease 0s;
+    cursor: pointer;
+    border: .25em solid rgb(239, 243, 254);
+    border-radius: 1em;
+}
+
+summary:hover{
+    background-color: rgb(92, 171, 240);
+}
+
+strong{
+    color: rgb(26, 50, 210);
+    font-weight: 600;
+}
+
+.tech{
+    height: 4em;
+    display: flex;
+    justify-content: space-around;
+}
+
+td, tr, th{
+    background-color: white;
+    border: 2px solid rgb(26, 130, 188);
+}
+
+.sub-head{
+    background-color: rgb(26, 130, 188);
+    color: aliceblue;
+    text-align: center;
+    border-radius: .25em;
+    margin: 0 .95em;
+}
+
+#worksite{
+    transition: all 0.3s ease 0s;
+}
+
+#worksite:hover {
+    transform: scale(1.025);
+}
